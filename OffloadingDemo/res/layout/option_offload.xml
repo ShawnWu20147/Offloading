@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前的控制者为:0 当前的显示者为:0"
+        />
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+
+    
+    >
+    
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="设置控制者"
+            android:gravity="center_vertical"
+            />
+        
+         <RadioGroup android:id="@+id/radioGroup"    android:layout_width="wrap_content" android:layout_height="match_parent" android:orientation="horizontal">
+   			<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioControlZero" android:text="0" android:checked="true"></RadioButton>
+    		<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioControlOne" android:text="1"></RadioButton> 
+      		<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioControlTwo" android:text="2"></RadioButton> 
+		</RadioGroup>
+        
+    
+        </LinearLayout>
+        
+    
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+
+    
+    >
+    
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="设置显示者"
+            android:gravity="center_vertical"
+            />
+        
+         <RadioGroup android:id="@+id/radioGroup2"    android:layout_width="wrap_content" android:layout_height="match_parent" android:orientation="horizontal">
+   			<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioShowZero" android:text="0" android:checked="true"></RadioButton>
+    		<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioShowOne" android:text="1"></RadioButton> 
+      		<RadioButton android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/radioShowTwo" android:text="2"></RadioButton> 
+		</RadioGroup>
+        
+    
+        </LinearLayout>
+        
+        
+        
+   
+    
+   
+    
+
+</LinearLayout>

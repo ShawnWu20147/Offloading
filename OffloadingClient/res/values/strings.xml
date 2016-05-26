@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OffloadingClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="sets">设置服务器IP</string>
+    <string name="pull">拉取配置</string>
+    <string name="opena">开启offloading应用</string>
+    <string name="defaultip">114.212.86.116</string>
+    
+
+</resources>

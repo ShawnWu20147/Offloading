@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shawnwu.oc.MainActivity" >
+
+    
+    <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+    	  android:layout_height="wrap_content"
+         >
+    
+    <Button
+        android:id="@+id/sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sets"
+        />
+    
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultip" />
+     </LinearLayout>
+     
+    <Button
+        android:id="@+id/pull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pull"
+        />
+    
+    
+    
+     <LinearLayout
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+         >
+		    <Button
+		        android:id="@+id/opena"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/opena"
+		        />
+    </LinearLayout>
+    
+     <Button 
+         android:id="@+id/debug"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="调试用"
+         />
+    
+
+</LinearLayout>
